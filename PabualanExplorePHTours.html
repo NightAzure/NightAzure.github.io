@@ -2,12 +2,56 @@
 <html>
     <head>
         <title>Explore PH Tours</title>
+        <style>
+            body {
+                font-size: 16px;
+                font-family: 'Century Gothic', Courier, monospace;
+                background-color: #eee4d9;
+            }
+            
+            header img {
+                max-width: 100%;
+                max-height: 100%;
+                 margin: auto;
+                 display: block;
+            }
+            .nav {
+                margin:0px;
+                padding: 10px 50px 10px 50px;
+                background-color: #8ba8b6;
+            }
+
+            .nav a {
+                text-decoration: none;
+                margin-right: 10px;
+                color:rgb(21, 39, 58);
+            }
+
+            .nav a:active{
+                color: #f3f3f3;
+            }
+
+            .button {
+                text-decoration: none;
+                color:black;
+                font-weight: bold;
+                border-radius: 10px;
+                border-style: solid;
+                background-color: white;
+                padding:7px;
+            }
+
+            footer {
+                margin-left: 30px;
+                font-size: 10px;
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <img src="CompanyBanner.png" style="width:100%; height:auto;">
+        <header id="#home">
+            <img src="CompanyBanner.png">
         </header>
-        <nav>
+        <nav class="nav">
             <a href="#home">Home</a>
             <a href="#services">Services</a>
             <a href="#promos">Promos</a>
@@ -15,8 +59,8 @@
         </nav>
         <hr>
         <main>
-            <div style="display:flex; justify-content: space-evenly; padding-top: 30px;">
-                <div>
+            <div style="display:flex; justify-content: space-evenly; padding-left:30px; padding-top: 30px;">
+                <div id="#services">
                     <b>Services Offered:</b>
                     <ul>
                         <li>Island Hopping Tours</li>
@@ -26,7 +70,7 @@
                         <li>Customized Travel Itineraries</li>
                     </ul>
                 </div>
-                <div>
+                <div id="#promos">
                     <b>Promotions:</b>
                     <ul>
                         <li>"3+1 Free" group packages.</li>
@@ -44,14 +88,14 @@
                 </div>
             </div>
             <hr>
-            <section style="padding:5px 100px 15px 75px;">
+            <section style="padding:5px 100px 15px 60px;">
             <h1>Book Your Next Adventure Today</h1>
             <p>Explore the Philippines like never before with our exciting packages. Limited slots available for promo deals. Don't miss out!</p>
-            <a class="nokie" href="#">Book Now</a>
+            <a class="button" href="#">Book Now</a>
             </section>
         </main>
         <hr>
-        <section style="margin:0px 100px 0px 75px;">
+        <section style="margin:0px 100px 0px 60px;" id="contact">
             <div style="display:flex; justify-content: normal; flex-wrap: wrap;">
                 <div style="padding-right: 50px; margin-top:-10px">
                     <h3>Contact Details:</h3>
