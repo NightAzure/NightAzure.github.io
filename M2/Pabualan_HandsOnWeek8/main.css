@@ -5,6 +5,7 @@ body{
     font-family: 'Fjalla One';
     margin:0;
     padding:0;
+    background-color: black;
 }
 
 .root {
@@ -31,7 +32,7 @@ body{
 }
 
 .uselessCard {
-    background-color: aquamarine;
+    background-color: rgb(255, 240, 221);
     width:300px;
     border: 2px solid black;
     border-radius: 10px;
@@ -39,12 +40,12 @@ body{
 }
 
 .generateButton {
+    border:2px solid black;
     cursor:pointer;
     margin-top:10px;
     padding:5px;
-    border:0px;
     border-radius: 5px;
-    background-color:aquamarine;
+    background-color:rgb(240, 255, 107);
     transition:all 150ms ease;
 }
 
@@ -58,24 +59,44 @@ body{
 
 .historyCard {
     background-color: aquamarine;
+    height:min-content;
     width:300px;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
     border-radius: 10px;
     padding:10px;
+    transition:all 150ms;
 }
 
 .historyX{
-    
+    padding-left:10px;
     height:10px;
     width: 10px;
     text-align: right;
+    transition: all 150ms ease;
+    cursor:pointer;
 }
-
+.historyCard:hover{
+    transform: scale(1.1);
+}
+.historyX:hover{
+    opacity: 0.8;
+}
+.histories{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: space-evenly;
+}
 .historySec {
     display: flex;
     justify-content: space-between;
+}
+
+.historyTitle{
+    font-size:30px;
+    padding: 0px 10px 0px 10px;
 }
 .source {
     padding-top:3px;
