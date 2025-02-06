@@ -1,9 +1,13 @@
-const jsonString = '{"name": "John", "age": 30, "city": "New York"}'; 
-// Parse JSON string into a JavaScript object 
+const jsonString = '{"name": "Nokie Pabualan", "age": 20, "hobbies":["Sleeping","Eating"]}'; 
 const jsonObject = JSON.parse(jsonString); 
-console.log(jsonObject.name);  // Output: John 
+console.log(jsonObject.name);  
 console.log(jsonObject.age);   
-// Output: 30 
-// Convert JavaScript object back to JSON string 
 const newJsonString = JSON.stringify(jsonObject); 
-console.log(newJsonString);  // Output: {"name":"John","age":30,"city":"New York"
+console.log(newJsonString);  
+
+document.getElementById("name").innerHTML='<b>Name</b>: '+jsonObject.name;
+document.getElementById("age").innerHTML='<b>Age</b>: '+jsonObject.age;
+for(let i=0;i<jsonObject.hobbies.length;i++){
+    document.getElementById("hobbies").innerHTML+=`<li>${jsonObject.hobbies[i]}</li>`;
+}
+
