@@ -45,7 +45,7 @@ Array.from(projItems).forEach(e => {
     console.log(id,e.id);
     console.log(e.style.backgroundImage);
     e.addEventListener('click',(e)=>{
-        window.open(projLinks[id], '_blank');
+        window.open(projLinks[id-1], '_blank');
 
     })
 });
