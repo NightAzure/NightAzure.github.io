@@ -12,7 +12,8 @@ const projLinks = [
     'https://www.spigotmc.org/resources/miniarcades-1-19-1-20-arcade-machines-flappy-creeper-aiming-game-familiar-block.111504/',
     'https://www.spigotmc.org/resources/dodgebolt-a-free-minigame-plugin-1-19-1-20.110720/',
     '/PabualanExplorePHTours.html',
-    '/PabualanCourseSchedule.html'
+    '/PabualanCourseSchedule.html',
+    'https://github.com/Yasinans/tagum-marketplace-web'
 ]
 
 const projBg = [
@@ -25,7 +26,7 @@ const projBg = [
     ['#8BC6EC','linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%)'],
     ['#FAD961','linear-gradient(90deg, #FAD961 0%, #F76B1C 100%)'],
     ['#FF3CAC','linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)'],
-
+    ['#00b4db','linear-gradient(to right, #00b4db, #0083b0)']
 ]
 const certButtons = document.getElementsByClassName('cert-desc-button');
 Array.from(certButtons).forEach(e => {
@@ -38,9 +39,10 @@ Array.from(certButtons).forEach(e => {
 
 const projItems = document.getElementsByClassName('proj-item');
 Array.from(projItems).forEach(e => {
-    let id = e.id.replace('proj-','')-1;
+    let id = e.id.replace('proj-','');
     e.style.backgroundColor = projBg[id][0];
     e.style.backgroundImage = projBg[id][1];
+    console.log(id,e.id);
     console.log(e.style.backgroundImage);
     e.addEventListener('click',(e)=>{
         window.open(projLinks[id], '_blank');
