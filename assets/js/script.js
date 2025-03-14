@@ -13,7 +13,7 @@ const projLinks = [
     'https://www.spigotmc.org/resources/dodgebolt-a-free-minigame-plugin-1-19-1-20.110720/',
     '/PabualanExplorePHTours.html',
     '/PabualanCourseSchedule.html',
-    'https://github.com/Yasinans/tagum-marketplace-web'
+    'https://tagum-marketplace-production.up.railway.app/'
 ]
 
 const projBg = [
