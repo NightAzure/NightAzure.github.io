@@ -4,30 +4,113 @@ const certLinks = [
     'https://mcm.codechum.com/certificates/2141',
     'https://mcm.codechum.com/certificates/1945'
 ];
-const projLinks = [
-    'https://github.com/Yasinans/BookingManagement',
-    'https://github.com/Yasinans/sorting-monster',
-    'https://github.com/Yasinans/CurrencyX',
-    'https://github.com/Yasinans/DeadlineNotifier',
-    'https://www.spigotmc.org/resources/miniarcades-1-19-1-20-arcade-machines-flappy-creeper-aiming-game-familiar-block.111504/',
-    'https://www.spigotmc.org/resources/dodgebolt-a-free-minigame-plugin-1-19-1-20.110720/',
-    '/PabualanExplorePHTours.html',
-    '/PabualanCourseSchedule.html',
-    'https://tagum-marketplace-production.up.railway.app/'
-]
 
-const projBg = [
-    [' #4158D0','linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%)'],
-    ['#0093E9','linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)'],
-    ['8EC5FC','linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)'],
-    ['#FF9A8B','linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%)'],
-    ['#85FFBD','linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%)'],
-    ['#FBAB7E','linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)'],
-    ['#8BC6EC','linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%)'],
-    ['#FAD961','linear-gradient(90deg, #FAD961 0%, #F76B1C 100%)'],
-    ['#FF3CAC','linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)'],
-    ['#00b4db','linear-gradient(to right, #00b4db, #0083b0)']
-]
+const projDatas = {
+    '1': {
+        'title': 'Booking Management',
+        'img': 'assets/images/proj-booking.png',
+        'description': 'Developed for Object-Oriented Programming Course\'s Project',
+        'link': 'https://github.com/Yasinans/BookingManagement',
+        'color': 'linear-gradient(43deg,rgb(165, 176, 230) 0%,rgb(241, 128, 234) 46%, #FFCC70 100%)',
+        'lang': ['C#']
+    }, 
+    '2': {
+        'title': 'Sorting Monster - Game',
+        'img': 'assets/images/proj-sorting.png',
+        'description': 'Developed for Computer Programming Concepts 1 Course',
+        'link': 'https://github.com/Yasinans/sorting-monster',
+        'color': 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)',
+        'lang': ['Python']
+    },
+    '3': {
+        'title': 'CurrencyX',
+        'img': 'assets/images/proj-currency.png',
+        'description': 'Developed for Computer Programming Concepts 2 Course',
+        'link': 'https://github.com/Yasinans/CurrencyX',
+        'color': 'linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)',
+        'lang': ['Java']
+    },
+    '4': {
+        'title': 'DeadlineNotifier',
+        'img': 'assets/images/proj-dead.png',
+        'description': 'Developed for Introduction to Computer Systems Course',
+        'link': 'https://github.com/Yasinans/DeadlineNotifier',
+        'color': 'linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%)',
+        'lang': ['C++']
+    },
+    '5': {
+        'title': 'MiniArcades',
+        'img': 'assets/images/proj-mini.png',
+        'description': 'Arcade Machines, integrated with ModelEngine, developed for Minecraft Spigot Server.',
+        'link': 'https://www.spigotmc.org/resources/miniarcades-1-19-1-20-arcade-machines-flappy-creeper-aiming-game-familiar-block.111504/',
+        'color': 'linear-gradient(90deg, #FAD961 0%, #F76B1C 100%)',
+        'lang': ['Java', 'YAML']
+    },
+    '6': {
+        'title': 'Dodgebolt - Spigot Plugin',
+        'img': 'assets/images/proj-dodge.png',
+        'description': 'A dodgeball-like minigame plugin developed for Minecraft Spigot Server.',
+        'link': 'https://www.spigotmc.org/resources/dodgebolt-a-free-minigame-plugin-1-19-1-20.110720/',
+        'color': 'linear-gradient(225deg,rgb(252, 153, 209) 0%,rgb(197, 138, 248) 50%,rgb(94, 171, 226) 100%)',
+        'lang': ['Java', 'YAML']
+    }, 
+    '7': {
+        'title': 'Tagum MarketPlace POS + IMS',
+        'img': 'assets/images/activity-3.png',
+        'description': 'Tagum Marketplace POS + IMS is a web-based Point of Sale (POS) and Inventory Management System (IMS) designed specifically for Tagum Marketplace. It provides a simple and efficient way to manage sales and inventory for the company.',
+        'link': 'https://tagum-marketplace-production.up.railway.app/',
+        'color': 'linear-gradient(to right,rgb(135, 211, 228),rgb(8, 179, 236))',
+        'lang': ['Vue', 'Vite', 'Node.js', 'TSX']
+    },
+    '8':{
+        'title': 'SkillChain - dApp',
+        'img': 'assets/images/proj-skillchain.png',
+        'description': 'A blockchain-based credential verification platform that enables secure issuance and verification of digital certificates using Web3 technology and decentralized storage.',
+        'link': 'https://skillchains.vercel.app/',
+        'color': 'linear-gradient(to right,rgb(252, 149, 32),rgb(255, 131, 131))',
+        'lang': ['Vue', 'Vite', 'Node.js', 'Solidity', 'Express.js', 'TSX']
+    }
+}
+
+const langColors = {
+    'python': 'rgb(180, 11, 25)',
+    'c++': 'green',
+    'java': ' rgb(82, 115, 185)',
+    'c#': ' rgb(81, 68, 196)',
+    'tsx': 'rgb(209, 51, 51)"',
+    'html': 'rgb(170, 87, 138)',
+    'css': 'rgb(120, 185, 44)',
+    'vue': 'rgb(50, 207, 89)',
+    'vite': 'rgb(184, 44, 149)',
+    'node.js': 'rgb(218, 52, 121)',
+    'yaml': 'rgb(219, 171, 12)',
+    'express.js': 'rgb(36, 30, 30)',
+    'solidity': 'rgb(165, 59, 130)',
+}
+Object.values(projDatas).forEach((e,i) => {
+    let projItem = document.createElement('div'); 
+    console.log(i)
+    projItem.id = 'proj-'+(i);
+    projItem.classList.add('proj-item');
+    projItem.style.backgroundColor = e['color'];
+    projItem.style.backgroundImage = e['color'];
+
+    projItem.innerHTML = `
+    <a href="${e['link']}" target="_blank" class="proj-link">
+    <div class="proj-img">
+        <img src="${e['img']}">
+    </div>
+    <div class="proj-desc">
+        <div class="proj-desc-title">${e['title']}</div>
+        <div class="proj-desc-info">${e['description']}</div>
+        <div class="proj-desc-lang">
+            ${e['lang'].map((e) => `<div class="proj-desc-lang-item" style="background: ${langColors[e.toLowerCase()]};">${e}</div>`).join('')}
+        </div>
+    </div>
+    </a>
+    `;
+    document.getElementsByClassName('proj-list')[0].appendChild(projItem);
+})
 const certButtons = document.getElementsByClassName('cert-desc-button');
 Array.from(certButtons).forEach(e => {
     let id = e.id.replace('cert-','')-1;
@@ -37,18 +120,7 @@ Array.from(certButtons).forEach(e => {
     })
 });
 
-const projItems = document.getElementsByClassName('proj-item');
-Array.from(projItems).forEach(e => {
-    let id = e.id.replace('proj-','');
-    e.style.backgroundColor = projBg[id][0];
-    e.style.backgroundImage = projBg[id][1];
-    console.log(id,e.id);
-    console.log(e.style.backgroundImage);
-    e.addEventListener('click',(e)=>{
-        window.open(projLinks[id-1], '_blank');
 
-    })
-});
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
