@@ -31,7 +31,7 @@
 }
 
 .proj-item {
-  display:flex;
+  display:flex 1 1;
   flex-direction: column;
   align-items: flex-start;
   border-radius: 10px;
@@ -55,6 +55,9 @@
 
 .proj-desc{
   padding:20px;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .proj-desc-title {
@@ -70,10 +73,13 @@
   color:white;
   font-size:12px;
   margin-top: 10px;
+  flex-flow: wrap;
+  row-gap: 2px;
   display: flex;
 }
 
 .proj-desc-lang-item{
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 7px;
   padding:3px 6px 3px 6px;
   margin: 0 10px 0 0;
