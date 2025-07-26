@@ -10,7 +10,7 @@ const projDatas = {
         'title': 'Booking Management',
         'img': 'assets/images/proj-booking.png',
         'description': 'Developed for Object-Oriented Programming Course\'s Project',
-        'link': 'https://github.com/Yasinans/BookingManagement',
+        'link': 'https://github.com/NightAzure/BookingManagement',
         'color': 'linear-gradient(43deg,rgb(165, 176, 230) 0%,rgb(241, 128, 234) 46%, #FFCC70 100%)',
         'lang': ['C#']
     }, 
@@ -18,7 +18,7 @@ const projDatas = {
         'title': 'Sorting Monster - Game',
         'img': 'assets/images/proj-sorting.png',
         'description': 'Developed for Computer Programming Concepts 1 Course',
-        'link': 'https://github.com/Yasinans/sorting-monster',
+        'link': 'https://github.com/NightAzure/sorting-monster',
         'color': 'linear-gradient(160deg, #0093E9 0%, #80D0C7 100%)',
         'lang': ['Python']
     },
@@ -26,7 +26,7 @@ const projDatas = {
         'title': 'CurrencyX',
         'img': 'assets/images/proj-currency.png',
         'description': 'Developed for Computer Programming Concepts 2 Course',
-        'link': 'https://github.com/Yasinans/CurrencyX',
+        'link': 'https://github.com/NightAzure/CurrencyX',
         'color': 'linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)',
         'lang': ['Java']
     },
@@ -34,7 +34,7 @@ const projDatas = {
         'title': 'DeadlineNotifier',
         'img': 'assets/images/proj-dead.png',
         'description': 'Developed for Introduction to Computer Systems Course',
-        'link': 'https://github.com/Yasinans/DeadlineNotifier',
+        'link': 'https://github.com/NightAzure/DeadlineNotifier',
         'color': 'linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%)',
         'lang': ['C++']
     },
