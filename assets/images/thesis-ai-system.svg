@@ -1,0 +1,20 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" fill="#050505"/>
+  <rect x="32" y="32" width="836" height="556" fill="#0B0B0B" stroke="#B6FF00" stroke-width="8"/>
+  <path d="M82 105H818" stroke="#F2F2F2" stroke-width="3" stroke-dasharray="18 18"/>
+  <path d="M82 515H818" stroke="#F2F2F2" stroke-width="3" stroke-dasharray="18 18"/>
+  <circle cx="450" cy="310" r="142" stroke="#B6FF00" stroke-width="10"/>
+  <circle cx="450" cy="310" r="82" stroke="#F2F2F2" stroke-width="3" stroke-dasharray="12 12"/>
+  <path d="M247 310H653" stroke="#B6FF00" stroke-width="8"/>
+  <path d="M450 107V513" stroke="#B6FF00" stroke-width="8"/>
+  <rect x="116" y="154" width="178" height="82" fill="#B6FF00"/>
+  <rect x="606" y="384" width="178" height="82" fill="#B6FF00"/>
+  <rect x="606" y="154" width="178" height="82" fill="#F2F2F2"/>
+  <rect x="116" y="384" width="178" height="82" fill="#F2F2F2"/>
+  <text x="450" y="294" text-anchor="middle" fill="#F2F2F2" font-family="Arial Black, Impact, sans-serif" font-size="54">AI</text>
+  <text x="450" y="350" text-anchor="middle" fill="#B6FF00" font-family="Arial Black, Impact, sans-serif" font-size="38">THESIS</text>
+  <text x="205" y="206" text-anchor="middle" fill="#050505" font-family="Arial, sans-serif" font-weight="900" font-size="26">LEARN</text>
+  <text x="695" y="206" text-anchor="middle" fill="#050505" font-family="Arial, sans-serif" font-weight="900" font-size="26">MODEL</text>
+  <text x="205" y="436" text-anchor="middle" fill="#050505" font-family="Arial, sans-serif" font-weight="900" font-size="26">DATA</text>
+  <text x="695" y="436" text-anchor="middle" fill="#050505" font-family="Arial, sans-serif" font-weight="900" font-size="26">SYSTEM</text>
+</svg>

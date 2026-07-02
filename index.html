@@ -1,169 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/section-2.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="stylesheet" href="assets/css/section-1.css">
-    <link rel="stylesheet" href="assets/css/section-3.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nokie Pabualan — 3rd year Computer Science student building full-stack, AI-assisted, cloud, and blockchain systems." />
+    <title>Nokie Pabualan | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/section-2.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/section-1.css" />
+    <link rel="stylesheet" href="assets/css/section-3.css" />
   </head>
   <body>
+    <div class="grain" aria-hidden="true"></div>
     <div class="root">
-      <!-- header or nav ambot unsay itawag ninyo-->
-      <div class="header">
-        <div class="logo-name">NOKIE PABUALAN</div>
-        <div class="nav">
+      <header class="header">
+        <a class="logo-name" href="#home" aria-label="Nokie Pabualan home">
+          <span>NP</span>
+          <em>PORTFOLIO</em>
+        </a>
+        <nav class="nav" aria-label="Primary navigation">
           <div class="nav-burger">
-            <div class="menu-icon"><img src="assets/images/menu.svg"></div>
+            <button class="menu-icon" aria-label="Open navigation menu"><img src="assets/images/menu.svg" alt="" /></button>
             <div class="nav-dropdown-content">
               <div class="drop-items"><a href="#home">Home</a></div>
-              <div class="drop-items"><a href="#about">About Me</a></div>
+              <div class="drop-items"><a href="#about">About</a></div>
               <div class="drop-items"><a href="#projects">Projects</a></div>
               <div class="drop-items"><a href="#certifications">Certifications</a></div>
+              <div class="drop-items"><a href="#contact">Contact</a></div>
             </div>
           </div>
           <div class="nav-items"><a href="#home">Home</a></div>
-          <div class="nav-items"><a href="#about">About Me</a></div>
+          <div class="nav-items"><a href="#about">About</a></div>
           <div class="nav-items"><a href="#projects">Projects</a></div>
           <div class="nav-items"><a href="#certifications">Certifications</a></div>
-        </div>
-      </div>
-      <!-- Home Section ni siya guys-->
-      <div class="home" id="home">
-        <div>Hi! my name is,</div>
-        <div>NOKIE PABUALAN</div>
-        <div>2ND YEAR COMPUTER SCIENCE</div>
-      </div>
-      <div class="section-1" id="about">
-        <div class="about-me">
-          <div class="about-title">ABOUT ME</div>
-          <div class="about-para">
-            I am Nokie F. Pabualan, a second-year Bachelor of Science in Computer Science student at Mapúa Malayan Colleges Mindanao. I'm passionate about software, cybersecurity, and web development, and I enjoy creating new solutions to real-world challenges. My expertise includes front-end and back-end programming, API integration, and scripting in languages such as C++, C#, Rust, Java, Python, and JavaScript. I enjoy learning new technologies, participating in programming challenges, and always honing my abilities in order to keep up with the ever-changing tech landscape. 
-          </div>
-          <div class="about-find">
-            <div class="find-title">FIND ME HERE</div>
-            <div class="about-contact">
-              <a target="_blank" href="https://www.linkedin.com/in/nokie-pabualan-55a76024b/"><img src="assets/images/linkedin.png"></a>
-              <a target="_blank" href="https://github.com/NightAzure"><img src="assets/images/github.webp"></a>
-            </div>
-          </div>
-        </div>
-        <div class="experience">
-          <div class="exp-title">MY EXPERIENCES</div>
-          <div class="skill-list">
-            <div class="skill-item">
-              <div class="skill-icon">
-                <img src="assets/images/web-icon.png">
-              </div>
-              <div class="skill-title">
-                Front-End Web Development<br>
-                HTML, CSS, JS
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-icon">
-                <img src="assets/images/back-icon.png">
-              </div>
-              <div class="skill-title">
-                Back-End Development<br>
-                ExpressJS, PHP, Python
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-icon">
-                <img src="assets/images/cpp-icon.png">
-              </div>
-              <div class="skill-title">
-                Software Development<br>
-                C++, C#, Rust, React
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-icon">
-                <img src="assets/images/python-icon.webp">
-              </div>
-              <div class="skill-title">
-                API/Scripting/Others<br>
-                Python, Lua
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="skill-icon">
-                <img src="assets/images/python-icon.webp">
-              </div>
-              <div class="skill-title">
-                Cyber-Security<br>
-                Web Apps/Desktop/Android Pentesting
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- project section ni aydol-->
-      <div class="projects" id="projects">
-        <div class="proj-header">PROJECTS / ASSIGNMENTS</div>
-        <div class="proj-list">
-        </div>
+          <div class="nav-items"><a href="#contact">Contact</a></div>
+        </nav>
+      </header>
 
-        <!--certifications-->
-      </div>
-      <div class="section-3" id="certifications">
-          <div class="cert-container">
-            <div class="cert-title">Certifications</div>
-            <div class="cert-list">
-              <div class="cert-item">
-                <div class="cert-img"><img src="assets/images/freecodecamp.png"></div>
-                <div class="cert-desc">
-                  <div class="cert-desc-title"><a target='_blank'  href="https://freecodecamp.org/certification/fcc3d51a3c5-61f8-4c3a-bdbe-1f9a0c2a8b88/foundational-c-sharp-with-microsoft">Foundational C# with Microsoft</a></div>
-                  <div class="cert-desc-issuer">freeCodeCamp</div>
-                  <div class="cert-desc-issued">Issued Jul 2024</div>
-                </div>
-                <div id="cert-1" class="cert-desc-button">
-                  View certificate
-                </div>
+      <main>
+        <section class="home" id="home">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow">DAVAO CITY, PH // COMPUTER SCIENCE // FULL-STACK</p>
+              <h1>NOKIE<br />PABUALAN</h1>
+              <p class="hero-kicker">
+                3rd year Computer Science student building full-stack products, AI-assisted educational systems, cloud-ready backends, and blockchain tooling.
+              </p>
+              <div class="hero-actions" aria-label="Hero links">
+                <a class="btn primary" href="#projects">View Work</a>
+                <a class="btn ghost" href="mailto:nPabualan@mcm.edu.ph">Email Me</a>
               </div>
-              <!--separate nalilito na ako-->
-              <div class="cert-item">
-                <div class="cert-img"><img src="assets/images/codecademy.png"></div>
-                <div class="cert-desc">
-                  <div class="cert-desc-title"><a target='_blank' href="https://www.codecademy.com/profiles/netSurfer80956/certificates/ddc94032dd07fd43ee02f994e8f72af9">C++ for Programmers Course</a></div>
-                  <div class="cert-desc-issuer">Codecademy</div>
-                  <div class="cert-desc-issued">Issued Mar 2024</div>
-                </div>
-                <div id="cert-2" class="cert-desc-button">
-                  View certificate
-                </div>
+            </div>
+            <div class="hero-visual" aria-label="Subtle portrait of Nokie Pabualan">
+              <div class="portrait-plate">
+                <img src="assets/images/nokie-face.jpg" alt="Portrait of Nokie Pabualan" />
               </div>
-              <!--separate nalilito na ako-->
-              <div class="cert-item">
-                <div class="cert-img"><img src="assets/images/codechum.png"></div>
-                <div class="cert-desc">
-                  <div class="cert-desc-title"><a target='_blank' href="https://mcm.codechum.com/certificates/2141">CodeChum National Programming Challenge - Certificate of Participation</a></div>
-                  <div class="cert-desc-issuer">Codecademy</div>
-                  <div class="cert-desc-issued">Issued Sept 2024</div>
-                </div>
-                <div id="cert-3" class="cert-desc-button">
-                  View certificate
-                </div>
+              <div class="rotating-dial" aria-hidden="true"></div>
+              <div class="terminal-card">
+                <span>STATUS</span>
+                <strong>3RD YEAR CS</strong>
+                <small>AI / CLOUD / WEB3</small>
               </div>
-              <!--separate nalilito na ako-->
-              <div class="cert-item">
-                <div class="cert-img"><img src="assets/images/codechum.png"></div>
-                <div class="cert-desc">
-                  <div class="cert-desc-title"><a href="https://mcm.codechum.com/certificates/1945">CodeChum National Programming Challenge Group Stage 1 - Certificate of Recognition                  </a></div>
-                  <div class="cert-desc-issuer">Codecademy</div>
-                  <div class="cert-desc-issued">Issued Sept 2024</div>
-                </div>
-                <div id="cert-4" class="cert-desc-button">
-                  View certificate
-                </div>
-              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="footer">© 2025 Nokie Pabualan</div>
+          <div class="ticker" aria-hidden="true">
+            <div class="ticker-track">
+              <span>FULL-STACK DEVELOPMENT</span><span>AI-ASSISTED EDUCATION</span><span>MACHINE LEARNING</span><span>BACKEND SYSTEMS</span><span>CLOUD FOUNDATIONS</span><span>BLOCKCHAIN TOOLING</span>
+              <span>FULL-STACK DEVELOPMENT</span><span>AI-ASSISTED EDUCATION</span><span>MACHINE LEARNING</span><span>BACKEND SYSTEMS</span><span>CLOUD FOUNDATIONS</span><span>BLOCKCHAIN TOOLING</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-1" id="about">
+          <div class="about-me panel-block">
+            <p class="section-label">01 // ABOUT</p>
+            <h2 class="about-title">COMPUTER SCIENCE STUDENT WITH A BUILDER'S BIAS</h2>
+            <p class="about-para">
+              I am Nokie Pabualan, a 3rd year Computer Science student from Davao City, Philippines. I build across the stack with Python, JavaScript/TypeScript, C#, Java, SQL, Vue, React, Express, and blockchain tooling. My work focuses on full-stack development, backend systems, AI-assisted educational systems, scripting, and practical machine-learning workflows.
+            </p>
+            <div class="info-strip">
+              <span>Filipino</span>
+              <span>English</span>
+              <span>nPabualan@mcm.edu.ph</span>
+              <span>+63 916 391 9956</span>
+            </div>
+            <div class="about-find">
+              <div class="find-title">FIND ME HERE</div>
+              <div class="about-contact">
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/nokie-pabualan-55a76024b/" aria-label="LinkedIn profile"><img src="assets/images/linkedin.png" alt="LinkedIn" /></a>
+                <a target="_blank" rel="noreferrer" href="https://github.com/NightAzure" aria-label="GitHub profile"><img src="assets/images/github.webp" alt="GitHub" /></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience panel-block">
+            <p class="section-label">02 // CAPABILITIES</p>
+            <h2 class="exp-title">LOUD SKILLS, CLEAN EXECUTION</h2>
+            <div class="skill-list">
+              <div class="skill-item"><span>01</span><strong>Full-Stack Development</strong><small>Vue, React, Express, SQL, APIs</small></div>
+              <div class="skill-item"><span>02</span><strong>Backend Development</strong><small>Node.js, Python, C#, Java</small></div>
+              <div class="skill-item"><span>03</span><strong>Machine Learning</strong><small>AI concepts, data workflows, GenAI use cases</small></div>
+              <div class="skill-item"><span>04</span><strong>Front-End Development</strong><small>Editorial UI, responsive layouts, JavaScript</small></div>
+              <div class="skill-item"><span>05</span><strong>Scripting + Tooling</strong><small>Automation, debugging, CLI-first workflows</small></div>
+              <div class="skill-item"><span>06</span><strong>Blockchain Tooling</strong><small>Web3, Solidity, decentralized storage</small></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects" id="projects">
+          <div class="section-heading">
+            <p class="section-label">03 // PROJECTS</p>
+            <h2 class="proj-header">PROJECTS THAT SHIP, RESEARCH THAT MOVES</h2>
+            <p>Selected coursework, thesis work, full-stack systems, game plugins, and blockchain experiments.</p>
+          </div>
+          <div class="proj-list" aria-live="polite"></div>
+        </section>
+
+        <section class="section-3" id="certifications">
+          <div class="cert-container">
+            <div class="section-heading compact">
+              <p class="section-label">04 // CERTIFICATIONS</p>
+              <h2 class="cert-title">CERTIFICATIONS + VALIDATED SKILLS</h2>
+            </div>
+            <div class="cert-list" aria-live="polite"></div>
+          </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+          <div class="contact-card">
+            <p class="section-label">05 // CONTACT</p>
+            <h2>LET'S BUILD SOMETHING SHARP.</h2>
+            <p>Available for collaboration around full-stack applications, AI-assisted learning tools, backend systems, and practical research prototypes.</p>
+            <div class="contact-actions">
+              <a class="btn primary" href="mailto:nPabualan@mcm.edu.ph">nPabualan@mcm.edu.ph</a>
+              <a class="btn ghost" href="https://github.com/NightAzure" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn ghost" href="https://www.linkedin.com/in/nokie-pabualan-55a76024b/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">© 2026 Nokie Pabualan // Built with brutalist energy.</footer>
     </div>
     <script src="assets/js/script.js"></script>
   </body>
